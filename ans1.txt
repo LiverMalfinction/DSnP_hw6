@@ -1,0 +1,3583 @@
+cir> cirr ../tests.err/ok01.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok02.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok03.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok04.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok05.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok06.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok07.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok08.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok09.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok10.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/ok11.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> cirr ../tests.err/good.aag -replace
+
+cir> cirp -sum
+
+cir> cirp -net
+
+cir> cirp -po
+
+cir> cirp -pi
+
+cir> cirp -flo
+
+cir> cirgate 0
+
+cir> cirgate 0 -fanin 0
+
+cir> cirgate 0 -fanin 1
+
+cir> cirgate 0 -fanin 2
+
+cir> cirgate 0 -fanin 3
+
+cir> cirgate 0 -fanin 4
+
+cir> cirgate 0 -fanin 5
+
+cir> cirgate 0 -fanout 0
+
+cir> cirgate 0 -fanout 1
+
+cir> cirgate 0 -fanout 2
+
+cir> cirgate 0 -fanout 3
+
+cir> cirgate 0 -fanout 4
+
+cir> cirgate 0 -fanout 5
+
+cir> cirgate 1
+
+cir> cirgate 1 -fanin 0
+
+cir> cirgate 1 -fanin 1
+
+cir> cirgate 1 -fanin 2
+
+cir> cirgate 1 -fanin 3
+
+cir> cirgate 1 -fanin 4
+
+cir> cirgate 1 -fanin 5
+
+cir> cirgate 1 -fanout 0
+
+cir> cirgate 1 -fanout 1
+
+cir> cirgate 1 -fanout 2
+
+cir> cirgate 1 -fanout 3
+
+cir> cirgate 1 -fanout 4
+
+cir> cirgate 1 -fanout 5
+
+cir> cirgate 2
+
+cir> cirgate 2 -fanin 0
+
+cir> cirgate 2 -fanin 1
+
+cir> cirgate 2 -fanin 2
+
+cir> cirgate 2 -fanin 3
+
+cir> cirgate 2 -fanin 4
+
+cir> cirgate 2 -fanin 5
+
+cir> cirgate 2 -fanout 0
+
+cir> cirgate 2 -fanout 1
+
+cir> cirgate 2 -fanout 2
+
+cir> cirgate 2 -fanout 3
+
+cir> cirgate 2 -fanout 4
+
+cir> cirgate 2 -fanout 5
+
+cir> cirgate 3
+
+cir> cirgate 3 -fanin 0
+
+cir> cirgate 3 -fanin 1
+
+cir> cirgate 3 -fanin 2
+
+cir> cirgate 3 -fanin 3
+
+cir> cirgate 3 -fanin 4
+
+cir> cirgate 3 -fanin 5
+
+cir> cirgate 3 -fanout 0
+
+cir> cirgate 3 -fanout 1
+
+cir> cirgate 3 -fanout 2
+
+cir> cirgate 3 -fanout 3
+
+cir> cirgate 3 -fanout 4
+
+cir> cirgate 3 -fanout 5
+
+cir> cirgate 4
+
+cir> cirgate 4 -fanin 0
+
+cir> cirgate 4 -fanin 1
+
+cir> cirgate 4 -fanin 2
+
+cir> cirgate 4 -fanin 3
+
+cir> cirgate 4 -fanin 4
+
+cir> cirgate 4 -fanin 5
+
+cir> cirgate 4 -fanout 0
+
+cir> cirgate 4 -fanout 1
+
+cir> cirgate 4 -fanout 2
+
+cir> cirgate 4 -fanout 3
+
+cir> cirgate 4 -fanout 4
+
+cir> cirgate 4 -fanout 5
+
+cir> cirgate 5
+
+cir> cirgate 5 -fanin 0
+
+cir> cirgate 5 -fanin 1
+
+cir> cirgate 5 -fanin 2
+
+cir> cirgate 5 -fanin 3
+
+cir> cirgate 5 -fanin 4
+
+cir> cirgate 5 -fanin 5
+
+cir> cirgate 5 -fanout 0
+
+cir> cirgate 5 -fanout 1
+
+cir> cirgate 5 -fanout 2
+
+cir> cirgate 5 -fanout 3
+
+cir> cirgate 5 -fanout 4
+
+cir> cirgate 5 -fanout 5
+
+cir> cirgate 6
+
+cir> cirgate 6 -fanin 0
+
+cir> cirgate 6 -fanin 1
+
+cir> cirgate 6 -fanin 2
+
+cir> cirgate 6 -fanin 3
+
+cir> cirgate 6 -fanin 4
+
+cir> cirgate 6 -fanin 5
+
+cir> cirgate 6 -fanout 0
+
+cir> cirgate 6 -fanout 1
+
+cir> cirgate 6 -fanout 2
+
+cir> cirgate 6 -fanout 3
+
+cir> cirgate 6 -fanout 4
+
+cir> cirgate 6 -fanout 5
+
+cir> cirgate 7
+
+cir> cirgate 7 -fanin 0
+
+cir> cirgate 7 -fanin 1
+
+cir> cirgate 7 -fanin 2
+
+cir> cirgate 7 -fanin 3
+
+cir> cirgate 7 -fanin 4
+
+cir> cirgate 7 -fanin 5
+
+cir> cirgate 7 -fanout 0
+
+cir> cirgate 7 -fanout 1
+
+cir> cirgate 7 -fanout 2
+
+cir> cirgate 7 -fanout 3
+
+cir> cirgate 7 -fanout 4
+
+cir> cirgate 7 -fanout 5
+
+cir> cirgate 8
+
+cir> cirgate 8 -fanin 0
+
+cir> cirgate 8 -fanin 1
+
+cir> cirgate 8 -fanin 2
+
+cir> cirgate 8 -fanin 3
+
+cir> cirgate 8 -fanin 4
+
+cir> cirgate 8 -fanin 5
+
+cir> cirgate 8 -fanout 0
+
+cir> cirgate 8 -fanout 1
+
+cir> cirgate 8 -fanout 2
+
+cir> cirgate 8 -fanout 3
+
+cir> cirgate 8 -fanout 4
+
+cir> cirgate 8 -fanout 5
+
+cir> cirgate 9
+
+cir> cirgate 9 -fanin 0
+
+cir> cirgate 9 -fanin 1
+
+cir> cirgate 9 -fanin 2
+
+cir> cirgate 9 -fanin 3
+
+cir> cirgate 9 -fanin 4
+
+cir> cirgate 9 -fanin 5
+
+cir> cirgate 9 -fanout 0
+
+cir> cirgate 9 -fanout 1
+
+cir> cirgate 9 -fanout 2
+
+cir> cirgate 9 -fanout 3
+
+cir> cirgate 9 -fanout 4
+
+cir> cirgate 9 -fanout 5
+
+cir> cirgate 10
+
+cir> cirgate 10 -fanin 0
+
+cir> cirgate 10 -fanin 1
+
+cir> cirgate 10 -fanin 2
+
+cir> cirgate 10 -fanin 3
+
+cir> cirgate 10 -fanin 4
+
+cir> cirgate 10 -fanin 5
+
+cir> cirgate 10 -fanout 0
+
+cir> cirgate 10 -fanout 1
+
+cir> cirgate 10 -fanout 2
+
+cir> cirgate 10 -fanout 3
+
+cir> cirgate 10 -fanout 4
+
+cir> cirgate 10 -fanout 5
+
+cir> usage
+Period time used : 0.04 seconds
+Total time used  : 0.04 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+
