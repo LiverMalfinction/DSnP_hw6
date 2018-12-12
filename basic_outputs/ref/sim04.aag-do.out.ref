@@ -1,0 +1,39 @@
+cir> cirread ./aag_files/sim04.aag
+
+cir> cirp -s
+
+Circuit Statistics
+==================
+  PI           1
+  PO           1
+  AIG          0
+------------------
+  Total        2
+
+cir> cirp -n
+
+[0] PI  1
+[1] PO  2 !1
+
+cir> cirp -pi
+PIs of the circuit: 1
+
+cir> cirp -po
+POs of the circuit: 2
+
+cir> cirp -fl
+
+cir> cirwrite
+aag 1 1 0 1 0
+2
+3
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+

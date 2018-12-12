@@ -1,0 +1,42 @@
+cir> cirread ./aag_files/opt01.aag
+
+cir> cirp -s
+
+Circuit Statistics
+==================
+  PI           1
+  PO           1
+  AIG          1
+------------------
+  Total        3
+
+cir> cirp -n
+
+[0] CONST0
+[1] PI  1
+[2] AIG 2 !0 1
+[3] PO  3 2
+
+cir> cirp -pi
+PIs of the circuit: 1
+
+cir> cirp -po
+POs of the circuit: 3
+
+cir> cirp -fl
+
+cir> cirwrite
+aag 2 1 0 1 1
+2
+4
+4 1 2
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+

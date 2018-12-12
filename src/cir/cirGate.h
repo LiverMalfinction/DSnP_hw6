@@ -10,6 +10,7 @@
 #define CIR_GATE_H
 
 #include <string>
+#include <cstring>
 #include <vector>
 #include <iostream>
 #include "cirDef.h"
@@ -45,10 +46,10 @@ class CirGate
   friend class CirMgr;
 public:
    CirGate()
-     : _id(0), _type(UNDEF_GATE), _lineNo(0){ _ref = new unsigned(0); }
+     : _id(0), _type(UNDEF_GATE), _lineNo(0) { _ref = new unsigned(0); _name = NULL; }
    CirGate(unsigned i, GateType t, unsigned l)
-     : _id(i), _type(t), _lineNo(l){ _ref = new unsigned(0); }
-   virtual ~CirGate() { delete _ref; }
+     : _id(i), _type(t), _lineNo(l){ _ref = new unsigned(0); _name = NULL; }
+   virtual ~CirGate() { delete _ref; delete _name; }
 
    // Basic access methods
    string getTypeStr() const { 
@@ -77,22 +78,11 @@ public:
      }
    }
    static void setGlobalref() { ++_globalref; }
-   /*void testFanin() const { 
-     for(size_t i = 0; i < _faninList.size(); i++){ 
-       cerr << "Gate " << _faninList[i]->gate()->getID() << " is " << _faninList[i]->gate()->getTypeStr() << "." << endl;
-       cerr << "And it is " << _faninList[i]->isInv() << endl;
-     } 
-   }
-   void testFanout() const {
-     for(size_t i = 0; i < _fanoutList.size(); i++){ 
-       cerr << "Gate " << _fanoutList[i]->getID() << " is " << _fanoutList[i]->getTypeStr() << "." << endl;
-     } 
-   }*/
    
 
    // Printing functions
    virtual void printGate() const = 0;
-   void setname(const string& name) { _name = name; }
+   void setname(const string& name) { _name = new char[name.length() + 1]; strcpy(_name, name.c_str()); }
    void reportGate() const;
    void reportFanin(int level) const;
    void reportFanout(int level) const;
@@ -102,16 +92,17 @@ public:
 private:
 
 protected:
+   
+   static unsigned   _spaces;
+   static unsigned   _globalref;
+   static unsigned   _printcount;
    vector<GateV*>    _faninList;
    vector<GateV*>    _fanoutList;
-   string            _name;
    GateType          _type;
    unsigned*         _ref;
    unsigned          _id;
    unsigned          _lineNo;
-   static unsigned   _spaces;
-   static unsigned   _globalref;
-   static unsigned   _printcount;
+   char*             _name;
 };
 
 class PIGate : public CirGate{

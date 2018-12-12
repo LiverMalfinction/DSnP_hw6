@@ -24,7 +24,7 @@ extern CirMgr *cirMgr;
 class CirMgr
 {
 public:
-   CirMgr(){}
+   CirMgr() : _AIGnum(0) {}
    ~CirMgr() {}
 
    // Access functions
@@ -47,8 +47,9 @@ public:
 private:
    GateList       _PIList;
    GateList       _POList;
-   GateList       _AIGList;
+   //GateList       _AIGList;
    GateList       _totalList;
+   unsigned       _AIGnum;
 };
 
 #endif // CIR_MGR_H

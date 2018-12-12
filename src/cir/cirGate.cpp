@@ -35,7 +35,7 @@ CirGate::reportGate() const
   temp += '(';
   temp += to_string(_id);
   temp += ')';
-  if(_name.size() > 0){
+  if(_name != NULL){
     temp += '\"';
     temp += _name;
     temp += '\"';
@@ -59,7 +59,7 @@ CirGate::reportFanin(int level) const
       *_ref = _globalref;
       ++_spaces;
       size_t pos = 0;
-      while(pos < _faninList.size()){
+      while(pos < 2){
         size_t i = 0;
         while(i < _spaces){
           ++i;
@@ -112,7 +112,7 @@ PIGate::printGate() const{
     cout << '[' << _printcount << "] ";
     if(_type == PI_GATE){
       cout << "PI  " << _id;
-      if(_name.size() != 0){
+      if(_name != NULL){
         cout << " (" << _name << ")";
       }
       cout << endl;
@@ -163,7 +163,7 @@ POGate::printGate() const{
     if(undef == 1)                                       cout << '*';
     if(inv   == 1)                                       cout << '!';
     cout << _faninList[0]->gate()->getID();
-    if(_name.size() != 0){
+    if(_name != NULL){
       cout << " (" << _name << ")";
     }
     cout << endl;

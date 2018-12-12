@@ -401,7 +401,7 @@ CirMgr::readCircuit(const string& fileName)
                     clear();
                     return parseError(REDEF_GATE);
                   }
-                  _AIGList.push_back(_totalList[var]);
+                  ++_AIGnum;
                 }
                 else if(token_num == 1 && inv == 1){
                   clear();
@@ -464,7 +464,7 @@ CirMgr::readCircuit(const string& fileName)
                 clear();
                 return parseError(REDEF_GATE);
               }
-              _AIGList.push_back(_totalList[var]);
+              ++_AIGnum;
             }
             else if(token_num == 1 && inv == 1){
               clear();
@@ -530,7 +530,7 @@ CirMgr::readCircuit(const string& fileName)
             if(colNo == head.size()){
               str.append(head, subpos, head.size() - subpos);
               if(str.size() == 0)           { clear(); errMsg = "symbolic name"; return parseError(MISSING_IDENTIFIER); }
-              else if (_PIList[idx]->_name.size() != 0) { clear(); errMsg = 'i'; errInt = idx; return parseError(REDEF_SYMBOLIC_NAME); }
+              else if (_PIList[idx]->_name != NULL) { clear(); errMsg = 'i'; errInt = idx; return parseError(REDEF_SYMBOLIC_NAME); }
               _PIList[idx]->setname(str);
             }
             else                            { clear(); errInt = (int)head[colNo];return parseError(ILLEGAL_SYMBOL_NAME); }
@@ -542,7 +542,7 @@ CirMgr::readCircuit(const string& fileName)
             if(colNo == head.size()){
               str.append(head, subpos, head.size() - subpos);
               if(str.size() == 0)           { clear(); errMsg = "symbolic name"; return parseError(MISSING_IDENTIFIER); }
-              else if (_POList[idx]->_name.size() != 0) { clear(); errMsg = 'o'; errInt = idx; return parseError(REDEF_SYMBOLIC_NAME); }
+              else if (_POList[idx]->_name != NULL) { clear(); errMsg = 'o'; errInt = idx; return parseError(REDEF_SYMBOLIC_NAME); }
               _POList[idx]->setname(str);
             }
             else                            { clear(); errInt = (int)head[colNo];return parseError(ILLEGAL_SYMBOL_NAME); }
@@ -592,10 +592,10 @@ CirMgr::printSummary() const
        << "  " << setiosflags( ios::left ) << setw(5) << "PO"
        << resetiosflags( ios::left ) << setw(9) << _POList.size() << endl
        << "  " << setiosflags( ios::left ) << setw(5) << "AIG"
-       << resetiosflags( ios::left ) << setw(9) << _AIGList.size() << endl
+       << resetiosflags( ios::left ) << setw(9) << _AIGnum << endl
        << "------------------" << endl
        << "  " << setiosflags( ios::left ) << setw(5) << "Total"
-       << resetiosflags( ios::left ) << setw(9) << _AIGList.size() + _POList.size() + _PIList.size() << endl;
+       << resetiosflags( ios::left ) << setw(9) << _AIGnum + _POList.size() + _PIList.size() << endl;
 }
 
 void
@@ -682,8 +682,8 @@ CirMgr::writeAag(ostream& outfile) const
     ++i;
   }
   i = 0;
-  while(i < _AIGList.size()){
-    if(*_AIGList[i]->_ref == _AIGList[i]->_globalref)    ++num_of_aig;
+  while(i < _totalList.size()){
+    if(_totalList[i] != NULL && *_totalList[i]->_ref == _totalList[i]->_globalref && _totalList[i]->_type == AIG_GATE)    ++num_of_aig;
     ++i;
   }
   CirGate::setGlobalref();
@@ -706,14 +706,14 @@ CirMgr::writeAag(ostream& outfile) const
   CirGate::setGlobalref();
   i = 0;
   while(i < _PIList.size()){
-    if(_PIList[i]->_name.size() > 0){
+    if(_PIList[i]->_name != NULL){
       cout << 'i' << i << ' ' << _PIList[i]->_name << endl;
     }
     i++;
   }
   i = 0;
   while(i < _POList.size()){
-    if(_POList[i]->_name.size() > 0){
+    if(_POList[i]->_name != NULL){
       cout << 'o' << i << ' ' << _POList[i]->_name << endl;
     }
     i++;
@@ -734,11 +734,7 @@ CirMgr::clear(){
     _POList.pop_back();
   }
   i = 0;
-  while(i < _AIGList.size()){
-    delete _AIGList[_AIGList.size() - 1];
-    _AIGList.pop_back();
-  }
-  i = 0;
+  _AIGnum = 0;
   _totalList.clear();
   CirGate :: _globalref = 1;
 }

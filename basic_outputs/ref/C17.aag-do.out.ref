@@ -1,0 +1,63 @@
+cir> cirread ./aag_files/C17.aag
+
+cir> cirp -s
+
+Circuit Statistics
+==================
+  PI           5
+  PO           2
+  AIG          7
+------------------
+  Total       14
+
+cir> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] PI  4
+[4] PI  5
+[5] AIG 6 2 5
+[6] AIG 7 !6 !6
+[7] AIG 8 4 !7
+[8] AIG 9 !3 !8
+[9] PO  13 !9
+[10] PI  10
+[11] AIG 11 !7 10
+[12] AIG 12 !8 !11
+[13] PO  14 !12
+
+cir> cirp -pi
+PIs of the circuit: 1 4 2 5 10
+
+cir> cirp -po
+POs of the circuit: 13 14
+
+cir> cirp -fl
+
+cir> cirwrite
+aag 12 5 0 2 7
+2
+8
+4
+10
+20
+19
+25
+6 2 4
+12 4 10
+14 13 13
+16 8 15
+18 7 17
+22 15 20
+24 17 23
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+

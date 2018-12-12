@@ -1,0 +1,47 @@
+cir> cirread ./aag_files/strash07.aag
+
+cir> cirp -s
+
+Circuit Statistics
+==================
+  PI           2
+  PO           1
+  AIG          3
+------------------
+  Total        6
+
+cir> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] AIG 4 2 1
+[4] AIG 5 3 4
+[5] PO  6 5
+
+cir> cirp -pi
+PIs of the circuit: 1 2
+
+cir> cirp -po
+POs of the circuit: 6
+
+cir> cirp -fl
+
+cir> cirwrite
+aag 5 2 0 1 3
+2
+4
+10
+6 2 4
+8 4 2
+10 6 8
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+cir> q -f
+
